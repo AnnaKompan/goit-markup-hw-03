@@ -330,7 +330,7 @@ footer {
   align-items: center;
   text-align: center;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn:hover,
@@ -368,7 +368,7 @@ footer {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .project {
@@ -380,6 +380,10 @@ footer {
   border: 1px solid #eeeeee;
   width: 370px;
   margin-top: 30px;
+}
+
+.project-item:nth-child(-n + 3) {
+  margin-top: 0;
 }
 
 .project-item:nth-last-child(-n + 3) {
